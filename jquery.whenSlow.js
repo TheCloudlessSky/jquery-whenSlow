@@ -1,3 +1,10 @@
+//
+// jQuery.whenSlow
+// https://github.com/TheCloudlessSky/jquery-whenSlow
+// 
+// Copyright (c) 2013 Adrian Phinney
+// Licensed under the MIT license.
+//
 (function($) {
 
 var defaults = {
