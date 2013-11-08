@@ -1,0 +1,23 @@
+{
+    "name": "whenSlow",
+    "version": "1.0.0",
+    "title": "whenSlow",
+    "author": {
+        "name": "Adrian Phinney",
+        "url": "http://adrianphinney.com"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://opensource.org/licenses/MIT"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.6"
+    },
+    "description": "Execute a function (e.g. show loading status) when a Promise is slow.",
+    "keywords": ["promise", "ajax", "slow", "delay", "ux", "indicator", "loading", "progress", "async"],
+    "bugs": "https://github.com/TheCloudlessSky/jquery-whenSlow/issues",
+    "homepage": "https://github.com/TheCloudlessSky/jquery-whenSlow",
+    "docs": "https://github.com/TheCloudlessSky/jquery-whenSlow"
+}
