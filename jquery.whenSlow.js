@@ -28,12 +28,10 @@ $.whenSlow = function(promise, callback, context) {
     }
   }, defaults.slow);
 
-  promise.always(function() {
+  return promise.always(function() {
     clearTimeout(timeout);
   });
-
-  return promise;
-
+  
 };
 
 $.whenSlow.defaults = defaults;
